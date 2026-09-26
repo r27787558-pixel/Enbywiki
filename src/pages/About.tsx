@@ -39,7 +39,7 @@ export function About() {
         </h2>
         <div className="mt-5 overflow-hidden rounded-xl shadow-soft ring-1 ring-black/5 dark:ring-white/10">
           <img
-            src="/trans-flag.svg"
+            src={`${import.meta.env.BASE_URL}trans-flag.svg`}
             alt={t('home.flagAlt')}
             className="block h-auto w-full"
             width={1500}
