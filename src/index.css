@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+
+  .dark {
+    color-scheme: dark;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-ink-50 text-ink-800 antialiased dark:bg-ink-950 dark:text-ink-200;
+    font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+  }
+
+  ::selection {
+    background-color: rgba(245, 169, 184, 0.45);
+    color: inherit;
+  }
+
+  /* Slim, pride-tinted scrollbars */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(91, 206, 250, 0.5) transparent;
+  }
+  *::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  *::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  *::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #5bcefa, #f5a9b8);
+    border-radius: 9999px;
+    border: 2px solid transparent;
+    background-clip: content-box;
+  }
+
+  :focus-visible {
+    outline: 2px solid #5bcefa;
+    outline-offset: 2px;
+  }
+}
+
+@layer components {
+  .trans-text-gradient {
+    @apply bg-trans-gradient bg-clip-text text-transparent;
+  }
+
+  .card {
+    @apply rounded-2xl border border-ink-200/70 bg-white/90 shadow-soft backdrop-blur-sm transition-all duration-200 dark:border-white/10 dark:bg-white/[0.04];
+  }
+
+  .card-hover {
+    @apply hover:-translate-y-0.5 hover:border-trans-blue/60 hover:shadow-glow;
+  }
+
+  .chip {
+    @apply inline-flex items-center gap-1.5 rounded-full border border-ink-200 bg-white px-3 py-1 text-xs font-medium text-ink-600 dark:border-white/10 dark:bg-white/5 dark:text-ink-300;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl px-4 py-2 text-sm font-semibold transition-all duration-200 focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50;
+  }
+
+  .btn-primary {
+    @apply btn bg-trans-gradient text-ink-900 shadow-soft hover:shadow-glow;
+  }
+
+  .btn-ghost {
+    @apply btn border border-ink-200 bg-white/70 text-ink-700 hover:border-trans-blue/60 hover:text-ink-900 dark:border-white/10 dark:bg-white/5 dark:text-ink-200 dark:hover:text-white;
+  }
+
+  .sidebar-link {
+    @apply flex items-center gap-2.5 rounded-lg px-3 py-2 text-sm font-medium text-ink-600 transition-colors hover:bg-trans-soft hover:text-ink-900 dark:text-ink-300 dark:hover:text-white;
+  }
+
+  .sidebar-link-active {
+    @apply bg-trans-soft text-ink-900 dark:text-white;
+    box-shadow: inset 2px 0 0 0 #5bcefa;
+  }
+}
+
+@layer utilities {
+  .flag-stripe {
+    background-image: var(--tw-gradient-stripes, linear-gradient(180deg, #5bcefa, #f5a9b8, #fff, #f5a9b8, #5bcefa));
+  }
+
+  .animate-in {
+    animation: fade-rise 0.5s cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+}
+
+@keyframes fade-rise {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

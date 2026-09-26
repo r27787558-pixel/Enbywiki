@@ -1,0 +1,170 @@
+{
+  "app": {
+    "name": "Enbywiki",
+    "tagline": "An open, bilingual history of transgender communities",
+    "description": "From the temple singers of ancient Sumer to the movements of today — a source-minded timeline of transgender lives, cultures, and resistance within the LGBTQ+ story."
+  },
+  "nav": {
+    "home": "Home",
+    "timeline": "Timeline",
+    "reference": "Reference",
+    "about": "About",
+    "menu": "Menu",
+    "close": "Close"
+  },
+  "actions": {
+    "toggleTheme": "Toggle light and dark mode",
+    "light": "Light",
+    "dark": "Dark",
+    "language": "Language",
+    "english": "English",
+    "chinese": "简体中文",
+    "readMore": "Read more",
+    "readEra": "Read this era",
+    "backHome": "Back to home",
+    "top": "Back to top",
+    "sourceNote": "Living document"
+  },
+  "categories": {
+    "timeline": "Timeline",
+    "reference": "Reference"
+  },
+  "home": {
+    "eyebrow": "Open historical archive",
+    "title": "A History of Transgender Communities",
+    "subtitle": "From the priests of ancient Sumer to the activists of today — a bilingual, source-minded timeline of transgender lives, cultures, and resistance.",
+    "ctaPrimary": "Start the timeline",
+    "ctaSecondary": "Browse key figures",
+    "stats": {
+      "eras": "Eras covered",
+      "span": "Years of history",
+      "languages": "Languages"
+    },
+    "flagCaption": "The Transgender Pride Flag, designed by Monica Helms in 1999.",
+    "flagAlt": "Transgender Pride Flag: light blue, pink, white, pink, light blue stripes",
+    "timelineTitle": "Follow the eras",
+    "timelineSubtitle": "Ten chapters moving from antiquity to the present day.",
+    "referenceTitle": "Reference shelf",
+    "referenceSubtitle": "People, words, and the place of the \"T\" within LGBTQ+.",
+    "whyTitle": "Why this archive exists",
+    "whyBody": "Transgender people have existed in every recorded era and on every continent, yet their stories are routinely flattened, medicalised, or erased. Enbywiki gathers them into one readable, bilingual timeline — so the long history of gender diversity is available to anyone, in English or 简体中文.",
+    "noteTitle": "A note on language",
+    "noteBody": "Historical records use the vocabulary of their time. Where sources use older or now-offensive terms, this wiki explains rather than repeats them uncritically, and it centres the words communities use for themselves."
+  },
+  "timeline": {
+    "title": "Timeline of Transgender History",
+    "subtitle": "Every era in the archive, in chronological order. Select a chapter to read the full entry.",
+    "count": "{{count}} chapters"
+  },
+  "article": {
+    "onThisPage": "On this page",
+    "period": "Period",
+    "readingTime": "About {{minutes}} min read",
+    "previous": "Previous",
+    "next": "Next",
+    "related": "Keep reading",
+    "notFoundTitle": "Entry not found",
+    "notFoundBody": "That chapter does not exist in the archive yet.",
+    "loading": "Loading entry…"
+  },
+  "notFound": {
+    "code": "404",
+    "title": "This page is not in the archive",
+    "message": "The link may be broken, or the chapter may not have been written yet.",
+    "cta": "Return home"
+  },
+  "footer": {
+    "disclaimer": "Enbywiki is an independent, non-commercial educational project. Content is provided in good faith for learning and reference.",
+    "license": "Text shared for educational use. Transgender Pride Flag is in the public domain.",
+    "builtWith": "Built with React, Vite and Tailwind CSS."
+  },
+  "about": {
+    "title": "About Enbywiki",
+    "subtitle": "A small, independent archive that tries to tell the long history of transgender people clearly, kindly, and in two languages.",
+    "flagTitle": "Reading the Transgender Pride Flag",
+    "flagBody": "Designed by Monica Helms in 1999, the flag's five stripes carry a deliberate symmetry: whichever way it is flown, it is always correct — a reminder that trans people have always existed and always will.",
+    "flagBlueName": "Light blue",
+    "flagBlue": "The traditional colour associated with boys.",
+    "flagPinkName": "Pink",
+    "flagPink": "The traditional colour associated with girls.",
+    "flagWhiteName": "White",
+    "flagWhite": "People who are transitioning, are intersex, or hold a neutral or undefined gender.",
+    "missionTitle": "Mission",
+    "missionBody": "To collect the history of the \"T\" within LGBTQ+ into a readable, accessible timeline — from antiquity to the present — and to keep it free and bilingual.",
+    "methodTitle": "Method",
+    "methodBody": "Entries synthesise mainstream historical and community scholarship. Contested dates are flagged as approximate, and where a claim is debated the text says so rather than smoothing it over.",
+    "languagesTitle": "Bilingual by design",
+    "languagesBody": "Interface text lives in JSON locale files while the history itself lives in paired English and Simplified Chinese Markdown, so both language versions can grow together.",
+    "techTitle": "Built with",
+    "techBody": "React, TypeScript, Vite, Tailwind CSS, react-markdown, React Router and i18next. The dark mode toggle stores your preference in the browser.",
+    "licenseTitle": "Use & reuse",
+    "licenseBody": "This is a non-commercial educational project. The Transgender Pride Flag design is in the public domain. Please share and cite generously."
+  },
+  "docs": {
+    "ancient-world": {
+      "title": "Ancient Origins",
+      "period": "c. 3000 BCE – 500 CE",
+      "description": "The earliest recorded lives of gender-diverse people: Sumerian gala priests, Egyptian figures, and the sacred gender roles of the ancient world."
+    },
+    "sacred-traditions": {
+      "title": "Sacred & Classical Traditions",
+      "period": "c. 200 BCE – 1900 CE",
+      "description": "Hijra communities of South Asia, Two-Spirit identities of Indigenous North America, and the gender-variant traditions that colonial powers later criminalised."
+    },
+    "medieval-early-modern": {
+      "title": "Medieval to Early Modern",
+      "period": "c. 500 – 1700 CE",
+      "description": "Cross-dressing saints, hermaphrodite lore, and the shifting legal and religious treatment of gender variance across Europe and the Islamic world."
+    },
+    "colonial-suppression": {
+      "title": "Colonialism & Suppression",
+      "period": "c. 1500 – 1900",
+      "description": "How empire exported binary gender law, criminalised hijra and Two-Spirit life, and pushed trans existence into the shadows."
+    },
+    "birth-of-sexology": {
+      "title": "The Birth of Sexology",
+      "period": "1860s – 1919",
+      "description": "Ulrichs, Hirschfeld and the first scientific language for transgender identity — emancipation or pathologisation?"
+    },
+    "weimar-institute": {
+      "title": "Weimar & the First Institute",
+      "period": "1919 – 1933",
+      "description": "Berlin's Institute for Sexual Science, the first gender clinics, Dora Richter and Lili Elbe — a brief flowering before the Nazis."
+    },
+    "midcentury": {
+      "title": "Mid-Century Turbulence",
+      "period": "1933 – 1968",
+      "description": "Nazi book burnings, the postwar clinic boom, Christine Jorgensen, and the work of trans pioneers in the 1950s and 60s."
+    },
+    "stonewall-liberation": {
+      "title": "Stonewall & Liberation",
+      "period": "1969 – 1979",
+      "description": "Compton's Cafeteria, Stonewall, STAR, and the trans women of colour whose leadership shaped the gay liberation movement."
+    },
+    "aids-and-90s": {
+      "title": "AIDS, Activism & the 1990s",
+      "period": "1980 – 1999",
+      "description": "The AIDS crisis, Transgender Day of Remembrance, the removal of trans identity from diagnostic disorder lists, and the flag's debut."
+    },
+    "twenty-first-century": {
+      "title": "The Twenty-First Century",
+      "period": "2000 – present",
+      "description": "Global visibility, legal recognition, gender self-determination laws, and the continuing struggle against backlash."
+    },
+    "key-figures": {
+      "title": "Key Figures",
+      "period": "Across the eras",
+      "description": "Profiles of the people who shaped transgender history — scholars, activists, artists and martyrs."
+    },
+    "glossary": {
+      "title": "Glossary of Terms",
+      "period": "Reference",
+      "description": "Working definitions for transgender, non-binary, gender dysphoria, cisgender and more, in plain language."
+    },
+    "transgender-in-lgbtq": {
+      "title": "The 'T' in LGBTQ+",
+      "period": "Reference",
+      "description": "How transgender people moved from the margins to the heart of the LGBTQ+ movement — and the tensions that remain."
+    }
+  }
+}

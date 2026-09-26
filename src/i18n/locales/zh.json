@@ -1,0 +1,170 @@
+{
+  "app": {
+    "name": "Enbywiki",
+    "tagline": "一部开放的双语跨性别社群史",
+    "description": "从古代苏美尔的圣殿歌者到今天的行动者——一部注重史料、双语呈现的跨性别生命、文化与抗争时间线。"
+  },
+  "nav": {
+    "home": "首页",
+    "timeline": "时间线",
+    "reference": "参考资料",
+    "about": "关于",
+    "menu": "菜单",
+    "close": "关闭"
+  },
+  "actions": {
+    "toggleTheme": "切换浅色与深色模式",
+    "light": "浅色",
+    "dark": "深色",
+    "language": "语言",
+    "english": "English",
+    "chinese": "简体中文",
+    "readMore": "阅读更多",
+    "readEra": "阅读本篇",
+    "backHome": "返回首页",
+    "top": "回到顶部",
+    "sourceNote": "持续更新"
+  },
+  "categories": {
+    "timeline": "时间线",
+    "reference": "参考资料"
+  },
+  "home": {
+    "eyebrow": "开放的历史档案",
+    "title": "跨性别社群的历史",
+    "subtitle": "从古代苏美尔的祭司到今天的行动者——一部双语、注重史料的跨性别生命、文化与抗争时间线。",
+    "ctaPrimary": "开始阅读时间线",
+    "ctaSecondary": "浏览重要人物",
+    "stats": {
+      "eras": "涵盖时代",
+      "span": "历史跨度",
+      "languages": "语言"
+    },
+    "flagCaption": "跨性别骄傲旗，由 Monica Helms 于 1999 年设计。",
+    "flagAlt": "跨性别骄傲旗：浅蓝、粉色、白色、粉色、浅蓝色条纹",
+    "timelineTitle": "沿时代阅读",
+    "timelineSubtitle": "从古代至今的十个章节。",
+    "referenceTitle": "参考资料架",
+    "referenceSubtitle": "人物、术语，以及「T」在 LGBTQ+ 中的位置。",
+    "whyTitle": "这个档案为何存在",
+    "whyBody": "跨性别者存在于有记载的每一个时代与每一片大陆，然而他们的故事常常被简化、病理化或抹去。Enbywiki 将它们汇集为一条易读的双语时间线——让性别多样性的漫长历史，以英文或简体中文向所有人敞开。",
+    "noteTitle": "关于用词的说明",
+    "noteBody": "史料使用的是其所属时代的词汇。当原始资料使用旧称或今已冒犯的术语时，本维基会加以说明，而非不加批判地沿用，并把社群自我认同的词语置于中心。"
+  },
+  "timeline": {
+    "title": "跨性别历史时间线",
+    "subtitle": "档案中的每个时代，按时间顺序排列。选择一个章节以阅读全文。",
+    "count": "共 {{count}} 章"
+  },
+  "article": {
+    "onThisPage": "本页内容",
+    "period": "时期",
+    "readingTime": "约 {{minutes}} 分钟阅读",
+    "previous": "上一章",
+    "next": "下一章",
+    "related": "继续阅读",
+    "notFoundTitle": "未找到条目",
+    "notFoundBody": "档案中尚无此章节。",
+    "loading": "正在载入条目……"
+  },
+  "notFound": {
+    "code": "404",
+    "title": "此页面不在档案中",
+    "message": "链接可能已失效，或该章节尚未撰写。",
+    "cta": "返回首页"
+  },
+  "footer": {
+    "disclaimer": "Enbywiki 是一个独立、非商业的教育项目。内容出于善意提供，供学习与参考。",
+    "license": "文本供教育用途分享。跨性别骄傲旗属于公有领域。",
+    "builtWith": "使用 React、Vite 与 Tailwind CSS 构建。"
+  },
+  "about": {
+    "title": "关于 Enbywiki",
+    "subtitle": "一个独立的小型档案，尝试清晰、友善地用两种语言讲述跨性别者的漫长历史。",
+    "flagTitle": "读懂跨性别骄傲旗",
+    "flagBody": "这面旗帜由 Monica Helms 于 1999 年设计，五道条纹刻意保持对称：无论从哪个方向升起，它永远是「正确」的——提醒人们，跨性别者一直存在，也永远会存在。",
+    "flagBlueName": "浅蓝色",
+    "flagBlue": "传统上关联男孩的颜色。",
+    "flagPinkName": "粉色",
+    "flagPink": "传统上关联女孩的颜色。",
+    "flagWhiteName": "白色",
+    "flagWhite": "正在过渡、双性（intersex），或自认中性／未定义性别的人。",
+    "missionTitle": "使命",
+    "missionBody": "把 LGBTQ+ 中「T」的历史汇集为一条易读、易得的时间线——从古代到当下——并让它保持免费与双语。",
+    "methodTitle": "方法",
+    "methodBody": "各篇条目综合主流历史学与社群研究。存在争议的年代会标注为约数；当某一说法仍有争论时，文本会如实说明，而非一笔带过。",
+    "languagesTitle": "双语的坚持",
+    "languagesBody": "界面文字存放于 JSON 语言文件，历史内容则成对地存于英文与简体中文 Markdown 中，让两种语言版本能够一同成长。",
+    "techTitle": "技术栈",
+    "techBody": "React、TypeScript、Vite、Tailwind CSS、react-markdown、React Router 与 i18next。深色模式开关会把你的偏好保存在浏览器中。",
+    "licenseTitle": "使用与再分享",
+    "licenseBody": "这是一个非商业的教育项目。跨性别骄傲旗的设计属于公有领域。欢迎大方地分享与引用。"
+  },
+  "docs": {
+    "ancient-world": {
+      "title": "古代起源",
+      "period": "约公元前 3000 年 – 公元 500 年",
+      "description": "最早有记载的性别多元者的生活：苏美尔的 gala 祭司、埃及的相关人物，以及古代世界神圣的性别角色。"
+    },
+    "sacred-traditions": {
+      "title": "神圣与古典传统",
+      "period": "约公元前 200 年 – 公元 1900 年",
+      "description": "南亚的海吉拉（Hijra）社群、北美原住民的双灵（Two-Spirit）身份，以及后来被殖民强权定罪的性别多元传统。"
+    },
+    "medieval-early-modern": {
+      "title": "中世纪至近代早期",
+      "period": "约公元 500 – 1700 年",
+      "description": "易装的圣人、雌雄同体的传说，以及欧洲与伊斯兰世界对性别多元在律法与宗教上不断变化的处理方式。"
+    },
+    "colonial-suppression": {
+      "title": "殖民主义与压制",
+      "period": "约 1500 – 1900 年",
+      "description": "帝国如何输出二元性别律法、将海吉拉与双灵生活定罪，并把跨性别的存在逼入阴影。"
+    },
+    "birth-of-sexology": {
+      "title": "性学的诞生",
+      "period": "1860 年代 – 1919 年",
+      "description": "乌尔里克斯、赫希菲尔德，以及最早为跨性别身份命名的科学语言——是解放，还是病理化？"
+    },
+    "weimar-institute": {
+      "title": "魏玛与第一所研究所",
+      "period": "1919 – 1933 年",
+      "description": "柏林的性科学研究所、最早的性别诊所、多拉·里希特与莉莉·艾尔伯——纳粹上台前短暂的绽放。"
+    },
+    "midcentury": {
+      "title": "世纪中叶的动荡",
+      "period": "1933 – 1968 年",
+      "description": "纳粹焚书、战后诊所热潮、克里斯汀·乔根森，以及 1950 与 60 年代跨性别先驱的工作。"
+    },
+    "stonewall-liberation": {
+      "title": "石墙与解放",
+      "period": "1969 – 1979 年",
+      "description": "康普顿餐厅、石墙事件、STAR，以及塑造了同志解放运动的跨性别有色人种女性领袖。"
+    },
+    "aids-and-90s": {
+      "title": "艾滋病、行动主义与 1990 年代",
+      "period": "1980 – 1999 年",
+      "description": "艾滋病危机、跨性别纪念日、跨性别身份从诊断性障碍名单中移除，以及骄傲旗帜的首次亮相。"
+    },
+    "twenty-first-century": {
+      "title": "二十一世纪",
+      "period": "2000 年至今",
+      "description": "全球能见度、法律承认、性别自决法，以及对抗逆流的持续斗争。"
+    },
+    "key-figures": {
+      "title": "重要人物",
+      "period": "跨越各时代",
+      "description": "塑造跨性别历史的人物小传——学者、行动者、艺术家与殉道者。"
+    },
+    "glossary": {
+      "title": "术语表",
+      "period": "参考资料",
+      "description": "以平实语言解释跨性别、非二元、性别烦躁、顺性别等词的工作定义。"
+    },
+    "transgender-in-lgbtq": {
+      "title": "LGBTQ+ 中的「T」",
+      "period": "参考资料",
+      "description": "跨性别者如何从边缘走到 LGBTQ+ 运动的核心，以及仍然存在的张力。"
+    }
+  }
+}
